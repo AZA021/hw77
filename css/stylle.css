@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    background-color: blue;
+    border-radius: 10px;
+    justify-content: center;
+    width: 70%;
+    height: 350px;
+    margin: 0 auto;
+    top: 200px;
+}
+
+.text1{
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    color: white;
+}
+
+.text2{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    color: white;
+}
+
+.botton{
+    position: absolute;
+    border-radius: 5px;
+    top: 250px;
+    left: 50px;
+    transition: 1s;
+    border: 7px solid white;
+    border: none;
+
+}
+
+.botton :hover{
+    cursor: pointer;
+    background-color: aqua;
+    transition: 1s;
+}
+
+.img {
+    position: absolute;
+    left: 945px;
+    top: -165px;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+
+}
